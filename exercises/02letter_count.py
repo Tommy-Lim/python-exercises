@@ -31,3 +31,14 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 2}
+
+from collections import defaultdict
+
+def letter_count(string):
+    dd = defaultdict(int)
+    for letter in string:
+        dd[letter] +=1
+    print(dd)
+
+
+letter_count("hello world")
