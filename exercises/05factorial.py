@@ -9,3 +9,12 @@
 #
 # > 120
 #
+
+def factorial(num):
+    result = num
+    for i in range(num-1, 0, -1):
+        result = result * i
+    print(result)
+
+
+factorial(5)
