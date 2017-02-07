@@ -13,3 +13,10 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(str, num):
+    arr = [str]*num
+    for entry in arr:
+        print(entry)
+
+p_times("Hello there", 3)
